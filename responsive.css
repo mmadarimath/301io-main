@@ -1,0 +1,106 @@
+/* $grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+); */
+
+
+@media screen and (max-width: 576px) {
+    img[alt="Banner"] {
+        height: 750px !important;
+    }
+
+    .container {
+        max-width: 95% !important;
+    }
+
+    .gall{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .gal1img1 {
+        grid-area: 1 / 1 / 5 / 9;
+        background-image: url(./images/Group\ 107.png);
+    }
+
+    /* .gal2img1 .gal2img2 .gal2img3 .gal2img4 .gal2img5 .gal2img6 {
+        flex-direction: column !important;
+      } */
+
+      .gal2img5 {
+        grid-area: 8/1/11/4;
+        background-image: url(./images/unsplash_mfjoslXbb-8.png);
+    }
+
+    .gal2img6 {
+        grid-area: 8/4/11/9;
+        background-image: url(./images/unsplash_NUrl7t_fkyk.png);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .gallery1 {
+        gap: 8px;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .gallery1 {
+        width: 100%;
+        transform: scale(1);
+        gap: 30px;
+    }
+
+    .gallery1 h4 {
+        font-size: 20px !important
+    }
+
+    .gallery1 h6 {
+        font-size: 15px !important
+    }
+
+    #carousel1 .owl-nav {
+        top: -170px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1200px) {
+    .product {
+        background-image: url(./images/Group\ 137.png);
+    }
+
+    .gallery1 {
+        width: 100%;
+        transform: scale(1);
+        gap: 30px;
+    }
+
+    .gallery1 h4 {
+        font-size: 48px !important
+    }
+
+    .gallery1 h6 {
+        font-size: 20px !important
+    }
+
+    #carousel1 .owl-nav {
+        top: -170px;
+    }
+}
+
+
+@media screen and (min-width: 1600px) {
+    .container {
+        max-width: 95% !important;
+    }
+}
+
