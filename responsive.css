@@ -47,8 +47,19 @@
     .gallery1 {
         gap: 8px;
     }
+
+    .talk{
+        margin-left: 0px !important;
+     }
 }
 
+
+@media screen and (max-width: 824px) {
+/* 
+    .talk{
+        margin-left: 0px !important;
+     } */
+}
 
 @media screen and (min-width: 992px) {
     .gallery1 {
@@ -68,7 +79,9 @@
     #carousel1 .owl-nav {
         top: -170px;
     }
-
+     .talk{
+        margin-left: 0px !important;
+     }
 
 }
 
